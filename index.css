@@ -27,6 +27,7 @@ ul {
 }
 body {
     font-family: Proxima Nova;
+    font-weight: 700;
     color: #333333;
     font-size: 20px;
     letter-spacing: 0.03em;
@@ -90,5 +91,19 @@ body {
 
 .hero-img {
     width: 667px;
-   
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 99px;
+    margin-bottom: 20px;
+}
+.hero-btn {
+    margin-top: 40px;
+    cursor: pointer;
+    background: linear-gradient(#FFDF00, #FFB800);
+    padding: 20px 67px; 
+    border-radius: 5px;
+    border-color: transparent;
 }
